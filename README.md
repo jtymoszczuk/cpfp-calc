@@ -9,9 +9,12 @@ cd cpfp-calc
 ./cpfp-calc.sh
 ```
 
-## info needed
+## Info needed
 
 Enter the total amount of sats your current(parent) tx cost? 
+
 What fee do you want your tx to be in sats/vbyte?
+
 Virtual size of parent transaction.
+
 Virtual size of child transaction.
