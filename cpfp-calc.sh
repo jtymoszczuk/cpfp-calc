@@ -4,6 +4,7 @@ echo "This estimates how many sats/vbyte you need to bump your child tx to get y
 
 #x= targetChildFee
 #x = (sat/vB_effective * (vB_parent + vB_child) - current_parent_fee) / vB_child
+# credit to https://twitter.com/Bitcoinite21 for his work on the formula.
 
 read -p "Enter the total amount of sats your current(parent) tx cost? " currentFee
 
